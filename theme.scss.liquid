@@ -1,0 +1,5 @@
+{% if settings.accent_font != 'none' %}
+$font-stack-accent: {{ settings.accent_font }};
+{% else %}
+$font-stack-accent: {{ accent_family.family }}, {{ accent_family.fallback_families }};
+{% endif %}
