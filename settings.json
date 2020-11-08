@@ -1,0 +1,17 @@
+      {
+        "type": "select",
+        "id": "accent_font",
+        "label": "Font",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "Trocchi",
+            "label": "Trocchi"
+          }
+        ],
+        "default": "none",
+        "info": "Select Font"
+      },
